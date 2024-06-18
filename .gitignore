@@ -1,5 +1,40 @@
-*.class
+# Scala and SBT specific
+target/
+project/target/
+project/project/
+.idea/
+*.iml
+
+# Mac OS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+
+# VS Code specific
+.vscode/
+
+# IntelliJ IDEA specific
+*.ipr
+*.iws
+*.jar
+
+# Logs
+logs/
 *.log
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# Compiled files
+*.class
+
+# Cache files
+.cache/
+
+# Dependencies (if using specific dependency directories)
+# /lib_managed/
+# /project/boot/
+
+# Miscellaneous
+*.zip
+*.tar.gz
+*.swp
+
